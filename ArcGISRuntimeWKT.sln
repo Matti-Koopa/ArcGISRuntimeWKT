@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISRuntimeWKT", "ArcGISRuntimeWKT\ArcGISRuntimeWKT.csproj", "{ABA738F9-FA30-4CAB-BF17-8D1183873B4A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISRuntimeWKTTests", "ArcGISRuntimeWKTTests\ArcGISRuntimeWKTTests.csproj", "{CBEBD782-65B3-4B10-8110-B586CE2EC6D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esri ArcGISRuntime Light", "..\pace_basiskomponenten\Esri ArcGISRuntime Light\Esri ArcGISRuntime Light.csproj", "{755FF0C2-2E28-4649-BFF5-94B56FB0F967}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{CBEBD782-65B3-4B10-8110-B586CE2EC6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBEBD782-65B3-4B10-8110-B586CE2EC6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBEBD782-65B3-4B10-8110-B586CE2EC6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755FF0C2-2E28-4649-BFF5-94B56FB0F967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755FF0C2-2E28-4649-BFF5-94B56FB0F967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755FF0C2-2E28-4649-BFF5-94B56FB0F967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755FF0C2-2E28-4649-BFF5-94B56FB0F967}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C817C7C-6DE1-4956-A3A4-83B3AFF42D22}
 	EndGlobalSection
 EndGlobal
