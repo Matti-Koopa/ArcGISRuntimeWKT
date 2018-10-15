@@ -69,7 +69,7 @@ namespace ArcGISRuntimeWKT
                 var point = (MapPoint) geometry;
                 AppendPointTaggedText(point, writer);
             }
-            else if (geometry is Polyline && ((Polyline) geometry).Parts.GetPartsAsPoints().Count(Algorithms.IsCcw) == 1)
+            else if (geometry is Polyline && ((Polyline) geometry).Parts.Count == 1)
             {
                 AppendLineStringTaggedText((Polyline) geometry, writer);
             }
